@@ -1,0 +1,12 @@
+[
+  {
+    "id": "manual01",
+    "group": "manual-demo-group",
+    "prompt": "Trong Python, len([]) bằng bao nhiêu? Trả lời một câu.",
+    "response_0": "len([]) bằng 0 vì danh sách không có phần tử.",
+    "response_1": "len([]) bằng 1 vì bản thân danh sách được tính là một phần tử.",
+    "source": "original synthetic manual labeling exercise",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  }
+]

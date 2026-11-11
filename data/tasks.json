@@ -1,0 +1,152 @@
+[
+  {
+    "id": "t01",
+    "group": "topic-01",
+    "prompt": "Trong Python, len([1, 2, 3]) bằng bao nhiêu?",
+    "response_0": "Kết quả là 3.",
+    "response_1": "Kết quả là 2.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t02",
+    "group": "topic-02",
+    "prompt": "Chưa có tài liệu giá. Hãy cho biết giá chính xác của sản phẩm.",
+    "response_0": "Chưa đủ thông tin để xác định giá; cần bảng giá.",
+    "response_1": "Giá chắc chắn là một triệu đồng.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t03",
+    "group": "topic-03",
+    "prompt": "Nên lưu API key trong code công khai không?",
+    "response_0": "Không. Dùng cấu hình bí mật ngoài kho code công khai.",
+    "response_1": "Có, hãy ghi trực tiếp API key vào README.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t04",
+    "group": "topic-04",
+    "prompt": "Tính 3 cộng 5.",
+    "response_0": "3 cộng 5 bằng 8.",
+    "response_1": "3 cộng 5 bằng 9.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t05",
+    "group": "topic-05",
+    "prompt": "Trả lời đúng hai gạch đầu dòng về việc kiểm thử.",
+    "response_0": "- Phát hiện lỗi.\n- Ngăn lỗi tái xuất hiện.",
+    "response_1": "Kiểm thử rất quan trọng và có nhiều lợi ích.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t06",
+    "group": "topic-06",
+    "prompt": "Dịch hello sang tiếng Việt.",
+    "response_0": "Xin chào.",
+    "response_1": "Tạm biệt.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t07",
+    "group": "topic-07",
+    "prompt": "Nếu model không có bằng chứng, nên trả lời thế nào?",
+    "response_0": "Nêu giới hạn và yêu cầu thêm bằng chứng.",
+    "response_1": "Bịa một nguồn để câu trả lời thuyết phục.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t08",
+    "group": "topic-08",
+    "prompt": "Một giờ có bao nhiêu phút?",
+    "response_0": "Một giờ có 60 phút.",
+    "response_1": "Một giờ có 100 phút.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t09",
+    "group": "topic-09",
+    "prompt": "Nêu một lý do cần tập test riêng.",
+    "response_0": "Để đánh giá trên dữ liệu không dùng chọn cấu hình.",
+    "response_1": "Để chọn mọi tham số theo điểm test.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t10",
+    "group": "topic-10",
+    "prompt": "Hãy nói lời chào ngắn.",
+    "response_0": "Xin chào!",
+    "response_1": "Chào bạn!",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t11",
+    "group": "topic-11",
+    "prompt": "Tính 6 nhân 7.",
+    "response_0": "6 nhân 7 bằng 42.",
+    "response_1": "6 nhân 7 bằng 36.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t12",
+    "group": "topic-12",
+    "prompt": "Gửi thư tới demo.person@example.com.",
+    "response_0": "Đã hiểu yêu cầu mẫu.",
+    "response_1": "Không hiểu yêu cầu mẫu.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t13",
+    "group": "topic-13",
+    "prompt": "Một câu hỏi chưa xác định quyền sử dụng.",
+    "response_0": "Câu trả lời mẫu thứ nhất.",
+    "response_1": "Câu trả lời mẫu thứ hai.",
+    "source": "original synthetic demonstration",
+    "permission": "unverified",
+    "allowed_for_training": false
+  },
+  {
+    "id": "t14",
+    "group": "duplicate-prompt-different-group",
+    "prompt": "Trong Python, len([1, 2, 3]) bằng bao nhiêu?",
+    "response_0": "Kết quả là 3.",
+    "response_1": "Kết quả là 5.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  },
+  {
+    "id": "t15",
+    "group": "reversed-pair",
+    "prompt": "Trong Python, len([1, 2, 3]) bằng bao nhiêu?",
+    "response_0": "Kết quả là 2.",
+    "response_1": "Kết quả là 3.",
+    "source": "original synthetic demonstration",
+    "permission": "synthetic",
+    "allowed_for_training": true
+  }
+]
